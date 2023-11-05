@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* ------- menu ---------- */
+/* ------------- header --------------*/
+.header {
+  background-image: url(/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -------- main ------------ */
+/* footer */
+/* carousel *//*# sourceMappingURL=style.css.map */
