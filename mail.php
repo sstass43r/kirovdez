@@ -4,7 +4,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 //Recaptcha verification
 if ($method === 'POST') {
-	$secret_key = "6Ld7KvQlAAAAAK_A-frfyum_clsyAKA7qUlcxOqG";
+	$secret_key = "6LfvlwYpAAAAAMQg0cXTaEjKdEgIYuLBeD1FZCx7";
 	$response = $_POST['g-recaptcha-response'];
 	$remoteip = $_SERVER['REMOTE_ADDR'];
 	$url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret_key&response=$response&remoteip=$remoteip";

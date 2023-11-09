@@ -11,15 +11,16 @@
 	<!-- swiper -->		
 	<link rel="stylesheet" href="/css/swiper-bundle.min.css">
 	
+	
 </head>
 
 <body>
 
-	<div class="header">
+	<div class="header pt-2">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 
-				<a class="navbar-brand" href="#"><img class="logo" src="/images/logo.svg" alt="Логотип"></a>
+				<a class="navbar-brand" href="/"><img class="logo" src="/images/logo.svg" alt="Логотип"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 					aria-expanded="false" aria-label="Переключатель навигации">
@@ -29,20 +30,20 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-lg-2 mb-2 mb-lg-0 w-100">
 						<li class="nav-item w-100">
-							<a class="nav-link-main" href="#">Услуги и цены</a>
+							<a class="nav-link-main" href="#comp-mer">Услуги и цены</a>
 						</li>
 						<li class="nav-item w-100">
-							<a class="nav-link-main" href="#">Отзывы</a>
+							<a class="nav-link-main" href="#reviews">Отзывы</a>
 						</li>
 						<li class="nav-item w-100">
-							<a class="nav-link-main" href="#">Контакты</a>
+							<a class="nav-link-main" href="#contacts">Контакты</a>
 						</li>
 						<li class="nav-item navbar__item w-100 my-2">
 							<a href="https://wa.me/78005553535"><img class="contact-icon" src="/images/wa.svg" alt="whatsapp"></a>
-							<a class="nav-link-tel" href="tel:+"> <img class="contact-icon" src="/images/tel.png" alt="">8 (800) 555 35 35</a>
+							<a class="nav-link-tel" href="tel:+"> <img class="contact-icon" src="/images/tel.png" alt="Телефон">8 (800) 555 35 35</a>
 						</li>
 						<li class="nav-item w-100 my-2">
-							<button type="button" class="btn-transp">Оставить заявку</button>
+							<button type="button" class="btn-transp" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставить заявку</button>
 						</li>
 					</ul>
 				</div>
@@ -64,7 +65,7 @@
 				</div>
 			</div>
 
-				<button type="button" class="btn-product my-4">Выбрать услугу</button>
+				<a class="btn-product my-4" href="#comp-mer" role="button">Выбрать услугу</a>
 			</div>
 		</div>
 
@@ -74,7 +75,7 @@
 	<div class="container bg-grey">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="cap-40 mt-5">Комплекс мероприятий по дезинфекции и дезинсекции</h2>
+				<h2 class="cap-40 mt-5" id="comp-mer">Комплекс мероприятий по дезинфекции и дезинсекции</h2>
 			</div>
 
 			<div class="col-md-4">
@@ -83,7 +84,7 @@
 					<div class="block-prod-pad">
 						<h3 class="block-prod__cap">Дезинфекция</h3>
 						<p class="block-prod__text">Уничтожение вирусов, инфекций, грибков, плесени</p>
-						<div class="text-center"><button type="button" class="btn-product-2">Заказать услугу</button></div>
+						<div class="text-center"><button type="button" class="btn-product-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать услугу</button></div>
 					</div>
 				</div>
 			</div>
@@ -94,7 +95,7 @@
 					<div class="block-prod-pad">
 						<h3 class="block-prod__cap">Дезинсекция</h3>
 						<p class="block-prod__text">Уничтожение тараканов, клопов, муравьев</p>
-						<div class="text-center"><button type="button" class="btn-product-2">Заказать услугу</button></div>
+						<div class="text-center"><button type="button" class="btn-product-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать услугу</button></div>
 					</div>
 				</div>
 			</div>
@@ -105,7 +106,7 @@
 					<div class="block-prod-pad">
 						<h3 class="block-prod__cap">Дезодорация</h3>
 						<p class="block-prod__text">Уничтожение запахов</p>
-						<div class="text-center"><button type="button" class="btn-product-2">Заказать услугу</button></div>
+						<div class="text-center"><button type="button" class="btn-product-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать услугу</button></div>
 					</div>
 				</div>
 			</div>
@@ -116,7 +117,7 @@
 					<div class="block-prod-pad">
 						<h3 class="block-prod__cap">PEST CONTROL</h3>
 						<p class="block-prod__text">Cнижение числа вредителей на конкретной территории</p>
-						<div class="text-center"><button type="button" class="btn-product-2">Заказать услугу</button></div>
+						<div class="text-center"><button type="button" class="btn-product-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать услугу</button></div>
 					</div>
 				</div>
 			</div>
@@ -127,7 +128,7 @@
 					<div class="block-prod-pad">
 						<h3 class="block-prod__cap">Дератизация</h3>
 						<p class="block-prod__text">Уничтожение грызунов (мыши, крысы, полёвки и др)­­</p>
-						<div class="text-center"><button type="button" class="btn-product-2">Заказать услугу</button></div>
+						<div class="text-center"><button type="button" class="btn-product-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать услугу</button></div>
 					</div>
 				</div>
 			</div>
@@ -138,7 +139,7 @@
 					<div class="block-prod-pad">
 						<h3 class="block-prod__cap">Фумигация</h3>
 						<p class="block-prod__text">Уничтожение насекомых с помощью паров ядовитого газа</p>
-						<div class="text-center"><button type="button" class="btn-product-2">Заказать услугу</button></div>
+						<div class="text-center"><button type="button" class="btn-product-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать услугу</button></div>
 					</div>
 				</div>
 			</div>
@@ -181,7 +182,7 @@
 			</div>
 
 			<div class="col-12 text-center">
-				<button type="button" class="btn-product my-4">Оставить заявку</button>
+				<button type="button" class="btn-product my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставить заявку</button>
 		</div>
 
 		</div>
@@ -229,6 +230,9 @@
 	<div class="bg-blue">
 		<div class="container">
 			<div class="row">
+				<div class="col-12">
+					<h2 class="cap-40" id="reviews">Отзывы моих клиентов</h2>
+				</div>
 
 				<div class="col-12">
 					<!-- Swiper 2 -->
@@ -253,6 +257,7 @@
 								</p>
 							</div>
 						 </div>
+
 						 <div class="swiper-slide comments-sw">
 							<div class="comments-block">
 								<p class="comments-block__name">Михаил Александрович</p>
@@ -271,6 +276,7 @@
 								</p>
 							</div>
 						 </div>
+
 						 <div class="swiper-slide comments-sw">
 							<div class="comments-block">
 								<p class="comments-block__name">Василиса Петрова</p>
@@ -289,6 +295,7 @@
 								</p>
 							</div>
 						 </div>
+						 
 					   </div>
 					   <div class="swiper-button-next2"></div>
 					   <div class="swiper-button-prev2"></div>
@@ -302,30 +309,47 @@
 	</div>
 
 
-	<div class="footer mt-5">
+	<div class="footer mt-5 pb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h2 class="cap-40">Рабочий процесс</h2>
-					<p>Заполните короткую форму обратной связи, чтобы я мог с вами связаться и обсудить детали будущего заказа</p>
+					<h2 class="cap-40" id="contacts">Оставить заявку</h2>
+					<p class="my-3">Заполните короткую форму обратной связи, чтобы я мог с вами связаться и обсудить детали будущего заказа</p>
 					<div class="footer__contact">
-						<a href="https://wa.me/78005553535"><img src="/images/wa.svg" alt="whatsapp"></a>
-						<a class="nav-link" href="tel:+">8 (800) 555 35 35</a>
+						<a class="me-1" href="https://wa.me/78005553535"><img class="contact-icon" src="/images/wa.svg" alt="whatsapp"></a>
+						<a class="footer__nav-link" href="tel:+"><img class="contact-icon" src="/images/tel.png" alt="Телефон"> 8 (800) 555 35 35</a>
 					</div>
 
 
-					<form method="post" action="send.php">
-						<input type="text" id="name" name="Ваше имя" placeholder="Ваше имя" required><br>					
-						<input type="tel" id="phone" name="Телефон" placeholder="+7 (___) ___ __ __" required><br>
+					<form id="form-zapis" class="footer-form">
+					
+						<div class="success" id="success-form">Отправлено!</div>
+						<div class="success" id="error-form">Произошла ошибка :(</div>
+						<h3 class="footer-form__cap">Заполните форму</h3>
+					
+						<input class="form-input" id="name" type="text" name="Ваше имя" placeholder="Ваше имя" required>
+						<input class="form-input" id="phone" type="text" name="Tелефон" placeholder="8 (____) ___-__-__" required>
 						<div class="checkbox-block">
-							<input type="checkbox"> <p class="checkbox-text">Нажимаю кнопку «Отправить» вы соглашаетесь с <a class="checkbox-text__link" href="">политикой конфиденциальности</a> </p>	
+							<input type="checkbox" id="footer__checkbox" required>
+							<p class="checkbox-text"> Нажимаю кнопку «Отправить» вы соглашаетесь с <a class="checkbox-text__link"
+									href="">политикой конфиденциальности</a> </p>
+						</div>				
+					
+					
+						<div id="recaptcha_1">
+
 						</div>
-									  
-						<div class="g-recaptcha" data-sitekey="ВАШ_КЛЮЧ_API"></div><br>				  
-						<input type="submit" class="btn btn-primary" value="Оставить заявку">
-					  </form>					
-
-
+					
+						<button type="submit" class="btn-product mt-2">
+							Оставить заявку
+						</button>
+					
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="Запись на прием">
+						<input type="hidden" name="admin_email" value="sstass43r@rambler.ru">
+						<input type="hidden" name="form_subject" value="Заявка из формы в Запись на прием">
+						<!-- END Hidden Required Fields -->
+					</form>					
 				</div>
 
 			</div>
@@ -333,8 +357,70 @@
 
 	</div>
 
+
+
+  
+  <!-- Модальное окно -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h3 class="footer-form__cap" id="exampleModalLabel">Заполните форму</h3>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+		</div>
+		<div class="modal-body">
+			<form id="form-zapis-modal">
+					
+				<div class="success" id="success-form2">Отправлено!</div>
+				<div class="success" id="error-form2">Произошла ошибка :(</div>
+			
+				<input class="form-input" id="name" type="text" name="Ваше имя" placeholder="Ваше имя" required>
+				<input class="form-input" id="phone" type="text" name="Tелефон" placeholder="8 (____) ___-__-__" required>
+				<div class="checkbox-block">
+					<input type="checkbox" id="footer__checkbox" required>
+					<p class="checkbox-text"> Нажимаю кнопку «Отправить» вы соглашаетесь с <a class="checkbox-text__link"
+							href="">политикой конфиденциальности</a> </p>
+				</div>				
+			
+			
+				<div id="recaptcha_2"></div>
+			
+				<button type="submit2 text-center" class="btn-product">
+					Оставить заявку
+				</button>
+			
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="Запись на прием">
+				<input type="hidden" name="admin_email" value="sstass43r@rambler.ru">
+				<input type="hidden" name="form_subject" value="Заявка из формы в Запись на прием">
+				<!-- END Hidden Required Fields -->
+			</form>			
+		</div>
+	  </div>
+	</div>
+  </div>
+
+
+  <script>
+
+	
+var onloadCallback = function () {
+	var sitekey = '6LfvlwYpAAAAAEYGrZn7T1Pe4JR8Vcx6Milcw4fj';
+	var forms = document.querySelectorAll('#recaptcha_1, #recaptcha_2');
+  for (var i = 0; i < forms.length; i++) {
+    grecaptcha.render(forms[i], {
+      'sitekey': sitekey
+    });
+  }
+};
+
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback" async defer></script>
+
 	<script src="/js/swiper-bundle.min.js"></script>
 	<script src="/js/main.js"></script>
+	<script src="mail.js"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
 		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
